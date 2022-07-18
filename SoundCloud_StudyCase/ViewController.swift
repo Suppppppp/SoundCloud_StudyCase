@@ -91,7 +91,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
     // 한 section에 몇 개의 cell을 넣을 것인가
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 100
     }
 
     // 어떤 cell을 보여줄 것인가
