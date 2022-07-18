@@ -15,6 +15,8 @@
 		AC8EEE1B287AAA39007A2ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8EEE1A287AAA39007A2ACE /* Assets.xcassets */; };
 		AC8EEE1E287AAA39007A2ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8EEE1C287AAA39007A2ACE /* LaunchScreen.storyboard */; };
 		AC8EEE26287AAAB4007A2ACE /* 80118-soundcloud-icon.json in Resources */ = {isa = PBXBuildFile; fileRef = AC8EEE25287AAAB4007A2ACE /* 80118-soundcloud-icon.json */; };
+		ACF8146E287AFBA700721637 /* HomeTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF8146C287AFBA700721637 /* HomeTextTableViewCell.swift */; };
+		ACF8146F287AFBA700721637 /* HomeTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF8146D287AFBA700721637 /* HomeTextTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		AC8EEE1D287AAA39007A2ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC8EEE1F287AAA39007A2ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC8EEE25287AAAB4007A2ACE /* 80118-soundcloud-icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "80118-soundcloud-icon.json"; sourceTree = "<group>"; };
+		ACF8146C287AFBA700721637 /* HomeTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTextTableViewCell.swift; sourceTree = "<group>"; };
+		ACF8146D287AFBA700721637 /* HomeTextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTextTableViewCell.xib; sourceTree = "<group>"; };
 		BE378D944F272CDA409C46DE /* Pods-SoundCloud_StudyCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundCloud_StudyCase.release.xcconfig"; path = "Target Support Files/Pods-SoundCloud_StudyCase/Pods-SoundCloud_StudyCase.release.xcconfig"; sourceTree = "<group>"; };
 		C6C3782A861C9FB8F37808DE /* Pods-SoundCloud_StudyCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundCloud_StudyCase.debug.xcconfig"; path = "Target Support Files/Pods-SoundCloud_StudyCase/Pods-SoundCloud_StudyCase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +77,7 @@
 		AC8EEE10287AAA37007A2ACE /* SoundCloud_StudyCase */ = {
 			isa = PBXGroup;
 			children = (
+				ACF8145D287AE9AB00721637 /* Cell */,
 				AC8EEE11287AAA37007A2ACE /* AppDelegate.swift */,
 				AC8EEE13287AAA37007A2ACE /* SceneDelegate.swift */,
 				AC8EEE15287AAA37007A2ACE /* ViewController.swift */,
@@ -83,6 +88,15 @@
 				AC8EEE25287AAAB4007A2ACE /* 80118-soundcloud-icon.json */,
 			);
 			path = SoundCloud_StudyCase;
+			sourceTree = "<group>";
+		};
+		ACF8145D287AE9AB00721637 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ACF8146C287AFBA700721637 /* HomeTextTableViewCell.swift */,
+				ACF8146D287AFBA700721637 /* HomeTextTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		BE6135374922E4F5984C8826 /* Pods */ = {
@@ -154,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF8146F287AFBA700721637 /* HomeTextTableViewCell.xib in Resources */,
 				AC8EEE1E287AAA39007A2ACE /* LaunchScreen.storyboard in Resources */,
 				AC8EEE1B287AAA39007A2ACE /* Assets.xcassets in Resources */,
 				AC8EEE19287AAA38007A2ACE /* Main.storyboard in Resources */,
@@ -213,6 +228,7 @@
 				AC8EEE16287AAA37007A2ACE /* ViewController.swift in Sources */,
 				AC8EEE12287AAA37007A2ACE /* AppDelegate.swift in Sources */,
 				AC8EEE14287AAA37007A2ACE /* SceneDelegate.swift in Sources */,
+				ACF8146E287AFBA700721637 /* HomeTextTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
